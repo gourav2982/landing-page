@@ -17,9 +17,10 @@ body{
     color:white;
 }
 .container-1-1{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    width: 700px;
+    width: 900px;
     justify-content: space-between;
     
 }
@@ -35,17 +36,24 @@ body{
 .container-1-2-1{
     display: flex;
     flex-direction: column;
-    width: 340px;
+    width: 440px;
     height: 120px;
 }
 .container-1-2-2{
     display: flex;
-    width: 340px;
+    flex-direction: column;
+    width: 440px;
     height: 120px;
-    background-color:grey;
-    align-items: center;
-    justify-content: center;
 }
+.imga{
+    display: flex;
+    width: 360px;
+    height: 120px;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 80px;
+}
+
 .text-1{
     font-weight: bolder;
     font-size: x-large;
@@ -54,12 +62,12 @@ body{
     font-size: small;
 }
 .sign-up{
-    margin-top: 13px;
-    background-color: rgb(100, 100, 244);
+    margin-top: 18px;
+    background-color:#3882f6;
     border-radius: 5px;
     font-weight: bold;
     color: white;
-    padding: 3px;
+    padding: 9px;
     border: none;
 }
 ul{
@@ -107,4 +115,58 @@ img{
     font-size: small;
     font-weight:lighter ;
     color: rgb(81, 114, 243);
+}
+#container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 216, 216);
+    height: 200px;
+    
+}
+.quote{
+    width: 700px;
+    font-size: 20px;
+    font-weight: 50;
+}
+.author{
+    text-align: end;
+    font-weight: bolder;
+}
+#container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.container-4-1{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color:#3882f6;
+    border-radius: 5px;
+    width: 800px;
+    height: 100px;
+    margin: 50px 0px;
+    gap: 30px;
+}
+.join{
+    background-color:#3882f6;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    border: 2px solid white;
+    text-align-last: end;
+}
+.text-5{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.text-6{
+    font-size: 12px;
+    font-weight: lighter;
 }
